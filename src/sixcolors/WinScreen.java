@@ -5,7 +5,7 @@ import java.awt.Font;
 import edu.princeton.cs.introcs.StdDraw;
 
 /* Classe : WinScreen
- * But : affiche l'écran de victoire
+ * But : affiche l'Ã©cran de victoire
  * 
  * 
  * */
@@ -50,7 +50,7 @@ public class WinScreen {
 		StdDraw.picture(this.wh / 4, this.hh / 2, this.t[0], this.wh * 0.16, this.wh * 0.16);
 		StdDraw.picture(this.wh / 4, this.hh / 2, this.visage[5], this.wh * 0.16, this.wh * 0.16);
 		if (this.hP[this.won - 1] != -1)
-			StdDraw.picture(this.wh / 4, this.hh / 2, this.h[this.hP[this.won - 1] - 1], this.wh * 0.16,
+			StdDraw.picture(this.wh / 4, this.hh / 2, this.h[this.hP[this.won - 1] ], this.wh * 0.16,
 					this.wh * 0.16);
 		StdDraw.picture(this.wh / 4, this.hh / 2 - hh * 0.07, "images/cake.png", this.hh * 0.2, this.hh * 0.2);
 		StdDraw.setPenColor(StdDraw.WHITE);
