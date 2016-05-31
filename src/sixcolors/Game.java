@@ -22,7 +22,7 @@ public class Game {
 	public static void main(String args[]) {
 		int wh = Game.wh;// window width in pixel
 		int hh = Game.hh;// window height in pixel
-		System.out.println("Whant to play ?");
+		System.out.println("Want to play ?");
 
 		System.out.println("lets go !");
 		playTerminal();
